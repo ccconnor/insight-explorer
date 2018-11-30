@@ -10,8 +10,8 @@
   "servicesConfig": {
     "bitcoind": {
       "spawn": {
-        "datadir": "./data",
-        "exec": "/home/bcd-root/.nvm/versions/node/v4.9.1/lib/node_modules/bitcore/node_modules/bitcore-node/bin/bitcoind"
+        "datadir": "/home/bcd-root/data",
+        "exec": "/home/bcd-root/insight/bitcoind"
       }
     }
   }
