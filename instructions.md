@@ -51,25 +51,25 @@ vi bitcore-node.json
 6. 修改network.js
 vi node_modules/bitcore-lib/lib/networks.js
 找到下面这段配置
-129 addNetwork({
-130   name: 'livenet',
-131   alias: 'mainnet',
-132   pubkeyhash: 0x00,
-133   privatekey: 0x80,
-134   scripthash: 0x05,
-135   xpubkey: 0x0488b21e,
-136   xprivkey: 0x0488ade4,
-137   networkMagic: 0xbddeb4d9,
-138   port: 7117,
-139   dnsSeeds: [
-140     'seed1.dns.btcd.io',
-141     'seed2.dns.btcd.io',
-142     'seed3.dns.btcd.io',
-143     'seed4.dns.btcd.io',
-144     'seed5.dns.btcd.io',
-145     'seed6.dns.btcd.io'
-146   ]
-147 });
+    129 addNetwork({
+    130   name: 'livenet',
+    131   alias: 'mainnet',
+    132   pubkeyhash: 0x00,
+    133   privatekey: 0x80,
+    134   scripthash: 0x05,
+    135   xpubkey: 0x0488b21e,
+    136   xprivkey: 0x0488ade4,
+    137   networkMagic: 0xbddeb4d9,
+    138   port: 7117,
+    139   dnsSeeds: [
+    140     'seed1.dns.btcd.io',
+    141     'seed2.dns.btcd.io',
+    142     'seed3.dns.btcd.io',
+    143     'seed4.dns.btcd.io',
+    144     'seed5.dns.btcd.io',
+    145     'seed6.dns.btcd.io'
+    146   ]
+    147 });
 改成分叉币对应的配置。
 7. 运行
 bitcored
