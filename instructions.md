@@ -99,7 +99,7 @@ vi node_modules/bitcore-lib/lib/networks.js
 bitcored
 ```
 
-参考链接：
-https://bitcore.io/guides/full-node
-https://www.tiny-calf.com/2017/07/20/%E6%90%AD%E5%BB%BA%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B5%8F%E8%A7%88%E5%99%A8/
+参考链接
+[bitcore](https://bitcore.io/guides/full-node)
+[搭建区块链浏览器](https://www.tiny-calf.com/2017/07/20/%E6%90%AD%E5%BB%BA%E5%8C%BA%E5%9D%97%E9%93%BE%E6%B5%8F%E8%A7%88%E5%99%A8/)
 第一个官方文档不会告诉你各种坑。
